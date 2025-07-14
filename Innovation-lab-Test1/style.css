@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #000;
+}
+header {
+  background: url('bannerimg.jpeg') center/cover no-repeat;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 2em;
+  font-weight: bold;
+}
+nav {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 15px 0;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+section {
+  padding: 40px 20px;
+}
+.about, .skills, .news, .contact {
+  max-width: 1000px;
+  margin: auto;
+}
+.about img {
+  width: 200px;
+  float: left;
+  margin-right: 20px;
+}
+h2 {
+  color: #d12c2c;
+}
+.button {
+  display: inline-block;
+  background: red;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  margin-top: 10px;
+  font-weight: bold;
+}
+.portfolio-gallery, .news-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.portfolio-gallery img, .news-gallery img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin: 10px;
+}
+.skills .bar {
+  background: #eee;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.skills .bar span {
+  display: block;
+  padding: 5px 10px;
+  background: #ffb3b3;
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+}
+.contact input, .contact textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+.contact button {
+  background: red;
+  color: white;
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+
+
+.about{
+  background-color: black;
+  color: white;
+}
