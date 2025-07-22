@@ -10,7 +10,7 @@ body {
   color: #000;
 }
 header {
-  background: url('bannerimg.jpeg') center/cover no-repeat;
+  background: url('./camera-581126_1280.jpg') center/cover no-repeat;
   height: 200px;
   display: flex;
   justify-content: center;
